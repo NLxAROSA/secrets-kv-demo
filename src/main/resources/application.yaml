@@ -1,0 +1,6 @@
+azure:
+  keyvault:
+    uri: https://lrosecretskv.vault.azure.net/
+    client-id: 94655417-c2f0-4f2f-a635-ead87f361404
+    client-key: 379cbb55-ddef-48f5-8451-8840297f2b47
+    tenant-id: 29248f74-371f-4db2-9a50-c62a6877a0c1
