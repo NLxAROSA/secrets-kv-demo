@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+sp.json
+key.json
+setup_keyvault_local.sh

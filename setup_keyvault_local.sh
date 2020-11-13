@@ -1,11 +1,11 @@
 #!/bin/bash
 
-RESOURCE_GROUP="lroSecretsRG"
+RESOURCE_GROUP="yourRGnameHere"
 RESOURCE_GROUP_REGION="EastUS"
-KEYVAULT_NAME="lroSecretsKv"
-SP_NAME="http://lroSecretsSp"
-SECRET_NAME="lroSecretName"
-SECRET_VALUE="'This is extremely secret'"
+KEYVAULT_NAME="yourKVnameHere"
+SP_NAME="http://yourspnamehere"
+SECRET_NAME="yoursecretnamehere"
+SECRET_VALUE="ThisIsExtremelySecret"
 
 echo "Creating resource group..."
 az group create -n $RESOURCE_GROUP -l $RESOURCE_GROUP_REGION

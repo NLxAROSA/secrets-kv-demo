@@ -18,7 +18,7 @@ public class SecretsKvDemoApplication {
 	}
 
 	@Bean
-	CommandLineRunner signAndValidate(@Value("${lroSecretName:nothing}") String secret)	{
+	CommandLineRunner getSecretBootstrap(@Value("${lroSecretName:nothing}") String secret)	{
 
 		return args ->	{
 			LOGGER.info("The secret is: " + secret);
